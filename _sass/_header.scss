@@ -3,11 +3,7 @@
 	position: relative;
 	display: flex;
 	flex-direction: row;
-	margin-bottom: rem(80px);
-
-	@media only screen and (max-width: rem(480px)) {
-		margin-bottom: calc(1rem + 13.3333vw);
-	}
+	margin-bottom: rem(16px);
 }
 
 .nav {
@@ -24,9 +20,11 @@
 }
 
 .tab {
+	display: inline-flex;
+	align-items: center;
 	margin-right: rem(8px);
 	padding: 0.25em 0.75em;
-	min-height: rem(40px);
+	min-height: rem(44px);
 	color: #fff;
 	font-weight: 300;
 	font-size: rem(20px);
